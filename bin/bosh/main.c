@@ -80,7 +80,7 @@ int main(int argc, char *argv0[])
 			arg_idx++;
 		}*/
 		
-		if(!strcmp("cls", cmd_argv[0])){
+		if(!strcmp("clear", cmd_argv[0])){
 			cmd_cls(argc, cmd_argv);
 			next_line = 0;
 		}else if(!strcmp("pwd", cmd_argv[0])){
@@ -115,9 +115,9 @@ int main(int argc, char *argv0[])
 			cmd_type(argc, cmd_argv);
 		}else if(!strcmp("cat", cmd_argv[0])){
 			cmd_cat(argc, cmd_argv);	
-		}else if(!strcmp("dir", cmd_argv[0])){
+		}else if(!strcmp("ls", cmd_argv[0])){
 			cmd_dir(argc, cmd_argv);
-		}else if(!strcmp("ver", cmd_argv[0])){
+		}else if(!strcmp("uname", cmd_argv[0])){
 			cmd_ver(argc, cmd_argv);
 		}else if(!strcmp("time", cmd_argv[0])){
 			cmd_time(argc, cmd_argv);
@@ -174,7 +174,7 @@ int main(int argc, char *argv0[])
 				
 				//gui_printf("status %d.\n",status);
 			}else{
-				gui_printf("bosh: unknown cmd!");
+				gui_printf("Xshell: Bad Command!");
 			}
 		}
 		//如果是清屏就不换行
