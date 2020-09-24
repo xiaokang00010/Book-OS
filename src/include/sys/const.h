@@ -9,10 +9,10 @@ Version: -v0.39 2019/4/7~2019/5/2
 Version: -v0.4 2019/5/3~2019/5/13
 */
 
-#define OS_NAME "Book OS"
+#define OS_NAME "Xther OS"
 #define OS_VERSION "0.4"
 #define OS_COPYRIGHT "(C) 2018-2019 by Book OS developers. All rights reserved."
-#define OS_AUTHER "Jason Hu"
+#define OS_AUTHER "Xiaokang0010"
 
 /*
 如果实在其它头文件里面调用另外一个模块的内容，就写sys/...
