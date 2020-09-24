@@ -122,7 +122,7 @@ int init_window(int width, int height, int char_w, int char_h)
 	}
 	gui_window_size(window.width, window.height);
 	gui_window_position(300, 24);
-	if (gui_window_create(BOSH_NAME) == -1) {
+	if (gui_window_create("Xshell") == -1) {
 		//失败返回前要把之前分配的buf释放
 		free(window.word_buf);
 		return -1;
