@@ -166,7 +166,7 @@ int main()
 void write_bin()
 {
 
-	printk("> load file start.\n");
+	printk("@> Load file start.\n");
 	
 	//char *app_addr = (char *)FILE_PHY_ADDR;
 
@@ -200,6 +200,6 @@ void write_bin()
 	printk("  write bin %s size:%d success!\n",WRITE_NAME, written);
 	fs.close(fd);
 	mm.free(app_addr);
-	printk("< load file done.\n");
+	printk("@> Load file done.\n");
 	
 }
