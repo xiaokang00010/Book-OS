@@ -10,8 +10,8 @@ Version: -v0.4 2019/5/3~2019/5/13
 */
 
 #define OS_NAME "Xther OS"
-#define OS_VERSION "0.4"
-#define OS_COPYRIGHT "(C) 2018-2019 by Book OS developers. All rights reserved."
+#define OS_VERSION "alpha_01"
+#define OS_COPYRIGHT "(C) 2018-2019 by Fox-Awa DevTeam. All rights reserved."
 #define OS_AUTHER "Xiaokang0010"
 
 /*
