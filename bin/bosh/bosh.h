@@ -6,7 +6,7 @@ BOSHELL 核心
 */
 
 
-#define BOSH_NAME "bosh"
+#define BOSH_NAME "Xshell"
 
 
 #define CMD_LINE_LEN 128
