@@ -24,7 +24,7 @@ bogui_message_t msg_in, msg_out;
 
 void init_bogui()
 {
-	printk("> init bugui start.\n");
+	printk("@> Init GUI Start.\n");
 
 	//printk(" vram:%x width:%d height:%d\n", video_info.vram, video_info.width, video_info.height);
 	
