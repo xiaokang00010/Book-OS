@@ -9,6 +9,7 @@ Version: -v0.39 2019/4/7~2019/5/2
 Version: -v0.4 2019/5/3~2019/5/13
 */
 
+#define _XTHER_OS
 #define OS_NAME "Xther OS"
 #define OS_VERSION "alpha_01"
 #define OS_COPYRIGHT "(C) 2018-2019 by Fox-Awa DevTeam. All rights reserved."
