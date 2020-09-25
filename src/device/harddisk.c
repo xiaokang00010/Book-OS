@@ -27,7 +27,7 @@ struct hard_disk *current_hd;
 static int harddisk_init_done;
 void init_harddisk()
 {
-	printk("> init harddisk start.\n");
+	printk("@> Harddisk Driver start.\n");
 
 	u8 hard_disk_nr = *((u8 *)HARDDISK_NR_ADDR);
 	
@@ -166,7 +166,7 @@ void init_harddisk()
 	disk_device_uninstall(MAKE_DEVICE_ID(DEVICE_HARDDISK, 1));
 	
 	harddisk_init_done = 1;
-	printk("< init harddisk done.\n");
+	printk("@> Harddisk Driver Started.\n");
 }
 
 void harddisk_service()
