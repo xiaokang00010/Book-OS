@@ -30,7 +30,7 @@ struct keyboard keyboard;
 
 void init_keyboard()
 {
-	printk("> init keyboard start.\n");
+	printk("@> Init keyboard start.\n");
 	
 	keyboard.code_with_E0 = 0;
 	
@@ -55,7 +55,7 @@ void init_keyboard()
 	put_irq_handler(KEYBOARD_IRQ, keyboard_handler);
 	enable_irq(KEYBOARD_IRQ);
 	
-	printk("< init keyboard done.\n");
+	printk("@> init keyboard done.\n");
 }
 
 void thread_keyboard(void *arg)
